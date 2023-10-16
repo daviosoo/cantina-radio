@@ -11,37 +11,47 @@ import {
 } from 'react-native';
 
 import LinearGradient from 'react-native-linear-gradient';
-import SoundPlayer from 'react-native-sound-player';
+import SplashScreen from 'react-native-splash-screen';
+import TrackPlayer, {Capability} from 'react-native-track-player';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
+import {SetupService} from './src/services/SetUpService';
 
-const ButtonMain = () => {
-  const [isLoading, setIsLoading] = useState(false);
-  const [isPlaying, setIsPlaying] = useState(false);
+function useSetupPlayer() {
+  const [playerReady, setPlayerReady] = useState(false);
 
   useEffect(() => {
-    SoundPlayer.addEventListener('FinishedLoadingURL', ({success, url}) => {
-      setIsLoading(false);
-    });
-
-    setIsLoading(true);
-    SoundPlayer.loadUrl('https://cloudoledgo.com:8008/stream');
+    let unmounted = false;
+    (async () => {
+      await SetupService();
+      if (unmounted) return;
+      setPlayerReady(true);
+    })();
+    return () => {
+      unmounted = true;
+    };
   }, []);
+  return playerReady;
+}
 
-  const handlePressPlay = () => {
-    SoundPlayer.play();
+const ButtonMain = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const isPlayerReady = useSetupPlayer();
+
+  const handlePressPlay = async () => {
+    await TrackPlayer.setupPlayer();
+
+    TrackPlayer.play();
     setIsPlaying(true);
   };
 
   const handlePressStop = () => {
-    SoundPlayer.stop();
     setIsPlaying(false);
-
-    setIsLoading(true);
-    SoundPlayer.loadUrl('https://cloudoledgo.com:8008/stream');
+    TrackPlayer.pause();
   };
 
-  if (isLoading) {
+  if (!isPlayerReady) {
     return (
       <TouchableOpacity style={styles.playButton} disabled={true}>
         <ActivityIndicator size="small" color="#000" />
@@ -108,6 +118,13 @@ const CurrentInfo = () => {
         .then(actualData => setSongData(actualData));
     }, 5000);
   }, []);
+
+  useEffect(() => {
+    if (!songData) {
+      return;
+    }
+    SplashScreen.hide();
+  }, [songData]);
 
   if (!songData) {
     return (
@@ -205,6 +222,7 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
+    backgroundColor: 'black',
   },
   backgroundImage: {
     flex: 1,

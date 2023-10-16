@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "lint": "eslint .",
+    "ios": "react-native run-ios --simulator='iPhone 11'",
+    "lint": "eslint --fix .",
     "start": "react-native start",
     "test": "jest"
   },
@@ -13,7 +13,8 @@
     "react": "18.2.0",
     "react-native": "0.72.4",
     "react-native-linear-gradient": "^2.8.3",
-    "react-native-sound-player": "^0.13.2",
+    "react-native-splash-screen": "^3.3.0",
+    "react-native-track-player": "^4.0.0-rc04",
     "react-native-vector-icons": "^10.0.0"
   },
   "devDependencies": {

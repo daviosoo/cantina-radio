@@ -12,6 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		64FF9FDE2ABA8D14008C88C6 /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FF9FDD2ABA8D14008C88C6 /* dummy.swift */; };
 		7699B88040F8A987B510C191 /* libPods-cantinaradio-cantinaradioTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-cantinaradio-cantinaradioTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,27 @@
 		5709B34CF0A7D63546082F79 /* Pods-cantinaradio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cantinaradio.release.xcconfig"; path = "Target Support Files/Pods-cantinaradio/Pods-cantinaradio.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-cantinaradio-cantinaradioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cantinaradio-cantinaradioTests.debug.xcconfig"; path = "Target Support Files/Pods-cantinaradio-cantinaradioTests/Pods-cantinaradio-cantinaradioTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-cantinaradio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cantinaradio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CD9CFB2AB915EB00B24F2D /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		64CD9CFC2AB915EB00B24F2D /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		64CD9CFD2AB915EB00B24F2D /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		64CD9CFE2AB915EB00B24F2D /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		64CD9CFF2AB915EB00B24F2D /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		64CD9D002AB915EB00B24F2D /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		64CD9D012AB915EB00B24F2D /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		64CD9D022AB915EB00B24F2D /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		64CD9D032AB915EB00B24F2D /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		64CD9D042AB915EB00B24F2D /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		64CD9D052AB915EB00B24F2D /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		64CD9D062AB915EB00B24F2D /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		64CD9D072AB915EB00B24F2D /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		64CD9D082AB915EB00B24F2D /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		64CD9D092AB915EB00B24F2D /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		64CD9D0A2AB915EB00B24F2D /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		64CD9D0B2AB915EB00B24F2D /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		64CD9D0C2AB915EB00B24F2D /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		64CD9D0D2AB915EB00B24F2D /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		64FF9FDC2ABA8D14008C88C6 /* cantinaradio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cantinaradio-Bridging-Header.h"; sourceTree = "<group>"; };
+		64FF9FDD2ABA8D14008C88C6 /* dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = cantinaradio/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-cantinaradio-cantinaradioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cantinaradio-cantinaradioTests.release.xcconfig"; path = "Target Support Files/Pods-cantinaradio-cantinaradioTests/Pods-cantinaradio-cantinaradioTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -86,12 +108,15 @@
 		13B07FAE1A68108700A75B9A /* cantinaradio */ = {
 			isa = PBXGroup;
 			children = (
+				64CD9CFA2AB915EB00B24F2D /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				64FF9FDD2ABA8D14008C88C6 /* dummy.swift */,
+				64FF9FDC2ABA8D14008C88C6 /* cantinaradio-Bridging-Header.h */,
 			);
 			name = cantinaradio;
 			sourceTree = "<group>";
@@ -104,6 +129,32 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-cantinaradio-cantinaradioTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64CD9CFA2AB915EB00B24F2D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				64CD9CFB2AB915EB00B24F2D /* Fontisto.ttf */,
+				64CD9CFC2AB915EB00B24F2D /* Octicons.ttf */,
+				64CD9CFD2AB915EB00B24F2D /* Feather.ttf */,
+				64CD9CFE2AB915EB00B24F2D /* FontAwesome6_Regular.ttf */,
+				64CD9CFF2AB915EB00B24F2D /* Entypo.ttf */,
+				64CD9D002AB915EB00B24F2D /* FontAwesome5_Brands.ttf */,
+				64CD9D012AB915EB00B24F2D /* MaterialCommunityIcons.ttf */,
+				64CD9D022AB915EB00B24F2D /* AntDesign.ttf */,
+				64CD9D032AB915EB00B24F2D /* Foundation.ttf */,
+				64CD9D042AB915EB00B24F2D /* Ionicons.ttf */,
+				64CD9D052AB915EB00B24F2D /* FontAwesome5_Solid.ttf */,
+				64CD9D062AB915EB00B24F2D /* FontAwesome5_Regular.ttf */,
+				64CD9D072AB915EB00B24F2D /* FontAwesome.ttf */,
+				64CD9D082AB915EB00B24F2D /* Zocial.ttf */,
+				64CD9D092AB915EB00B24F2D /* EvilIcons.ttf */,
+				64CD9D0A2AB915EB00B24F2D /* FontAwesome6_Solid.ttf */,
+				64CD9D0B2AB915EB00B24F2D /* SimpleLineIcons.ttf */,
+				64CD9D0C2AB915EB00B24F2D /* FontAwesome6_Brands.ttf */,
+				64CD9D0D2AB915EB00B24F2D /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -207,7 +258,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -413,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				64FF9FDE2ABA8D14008C88C6 /* dummy.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-cantinaradio-cantinaradioTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -459,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-cantinaradio-cantinaradioTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = cantinaradioTests/Info.plist;
@@ -486,6 +540,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AXMCWU8XTM;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = cantinaradio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -500,6 +555,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = cantinaradio;
+				SWIFT_OBJC_BRIDGING_HEADER = "cantinaradio-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -513,6 +569,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AXMCWU8XTM;
 				INFOPLIST_FILE = cantinaradio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,6 +583,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = cantinaradio;
+				SWIFT_OBJC_BRIDGING_HEADER = "cantinaradio-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
